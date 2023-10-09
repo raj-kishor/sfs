@@ -42,7 +42,7 @@ def preprocess_data(data):
 with open('sales_xgb_model.pkl', 'rb') as file:
     regressor = pickle.load(file)  
     
-st.title("Input Data for Preprocessing and Modeling")
+st.title("Sales Forecasting System for Retail Industry")
 
 # Get input from user
 country = st.text_input("Country")
